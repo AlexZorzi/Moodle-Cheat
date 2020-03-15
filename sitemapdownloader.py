@@ -4,7 +4,7 @@ import mysql.connector
 
 class zaspaida():
 
-    homelink = "https://www.chimica-online.it/sitemap"
+    homelink = "https://www.example.com/sitemap"
 
 
     def dbtalk(self,query):
