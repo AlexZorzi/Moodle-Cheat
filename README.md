@@ -12,7 +12,7 @@ This project can work in 2 ways:
 
 USING A SEARCH API:
 you can use a search api like <a href="https://developers.google.com/custom-search/v1/overview" >Google</a>
-but its limited to a 100 query per day in the free plan. You can use wathever API you want when sending a query to the api needs to be like shown "site:YourtargetSite.com query"
+but its limited to a 100 query per day in the free plan. You can use wathever API you want when sending a query to the api needs to be like shown "site:YourtargetSite.com query" in order to do this on the google api we have a special parameter on the query to add, the "cx" parameter, this is linked to witch sites your api will search. you can make a cx code here https://cse.google.com/cse/create/
 
 USING A DATABASE :
 you can use this method if you cant use the Api one.
