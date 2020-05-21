@@ -57,10 +57,10 @@ function globalOnClickHandler() {
     var query = s.toString();                          //get one word of a wide <p>
     query = query.replace(" ","");                    // Delete axtra spacing
     query = query.replace(" ","");
-    data = httpGet("https://www.example.com/chimicadb.php?key=key&args="+query);  // Request to remote db you can also use some internet search api
+    data = httpGet("https://googleapiurl.com?key=yourapikey&cx=youcxcode&q=site:targetsite.com "+query);  // Request to remote db you can also use some internet search api
 
       var data = JSON.parse(data);      //parse Json
-      var url = data["Url"];          //get Url
+      var url = data["items"][0]["link"];          //get Url from first item
 
             data = httpGet("https://cors-anywhere.herokuapp.com/"+url);  // exploit cross origin limit
             data = extractContent(data);    //parse html
