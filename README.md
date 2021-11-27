@@ -4,7 +4,7 @@
 
 # Concept
 
-<img src="https://i.imgur.com/kxPVpkw.gif">Vibing</img>
+<img src="https://i.imgur.com/kxPVpkw.gif"></img>
 It's basically as having digital notes, it does not touch the backend!
 
 # How To
