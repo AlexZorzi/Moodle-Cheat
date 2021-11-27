@@ -5,6 +5,7 @@
 # Concept
 
 <img src="https://i.imgur.com/kxPVpkw.gif">Vibing</img>
+It's basically as having digital notes, it does not touch the backend!
 
 # How To
 for this project to work we need an <a href="https://chrome.google.com/webstore/detail/disable-javascript/jfpdlihdedhlmhlbgooailmfhahieoem">extension</a> to block the native javascript code of Moodle.
